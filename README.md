@@ -1,6 +1,5 @@
-Title: APD Project 1 - Multithreaded MapReduce File Processing in C++
+Multithreaded MapReduce File Processing in C++
 
-Description:
 This repository contains the implementation of a multithreaded MapReduce file processing system in C++. The project aims to implement a parallel program using Pthreads to find numbers greater than 0 that are perfect powers from a set of input files. It is implemented using the Map-Reduce model for the efficient processing of the input documents, distributing them evenly among multiple threads. The program will parse and verify the numbers in parallel, generating partial lists for each exponent. These lists will then be combined to obtain aggregated lists for each exponent. Finally, the program will count the unique values in parallel and write the results to respective output files.
 
 The project aims to efficiently process and analyze large datasets using multiple threads. The threads are created based on the number of mappers (M) and reducers (R), and each thread performs specific functions. The mappers handle file processing and map data to partial lists, while the reducers perform data aggregation and produce the final output.
